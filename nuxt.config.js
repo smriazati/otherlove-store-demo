@@ -50,6 +50,6 @@ export default {
     baseUrl:
       process.env.NODE_ENV !== 'production'
         ? 'http://localhost:8888'
-        : 'https://shopify-nuxt-kit.netlify.app',
+        : 'https://otherlove-demo-store.netlify.app',
   },
 }
