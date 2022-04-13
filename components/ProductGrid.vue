@@ -18,27 +18,3 @@ export default {
     />
   </div>
 </template>
-
-<style lang="scss" scoped>
-.product-grid {
-  max-width: 60vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-
-  @include breakpoint($deviceSm) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @include breakpoint($deviceLg) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  @include breakpoint($deviceXl) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-</style>

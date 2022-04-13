@@ -34,31 +34,3 @@ export default {
     </div>
   </section>
 </template>
-
-<style lang="scss" scoped>
-.cart-total {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.cart-total-content {
-  grid-column: 1 / span 5;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-
-  @include breakpoint($deviceLg) {
-    grid-column: 4 / span 2;
-  }
-}
-
-.cart-total-column p {
-  padding: 10px;
-  margin: 0;
-  text-align: right;
-
-  &:last-child {
-    font-weight: bold;
-    background: #f2eee2;
-  }
-}
-</style>

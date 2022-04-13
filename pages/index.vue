@@ -37,9 +37,3 @@ export default {
     <product-grid :product-list="filteredProductList" />
   </main>
 </template>
-
-<style lang="scss" scoped>
-.home-page {
-  margin: 30px 0 45px;
-}
-</style>

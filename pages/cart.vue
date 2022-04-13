@@ -47,26 +47,3 @@ export default {
     </article>
   </main>
 </template>
-
-<style lang="scss" scoped>
-.cart-page {
-  width: 80vw;
-  margin: 0 auto;
-}
-
-.cart-page-button.is-dark {
-  background: #222;
-  color: #f8f8f8;
-  padding: 10px 14px;
-  display: inline-block;
-}
-
-.cart-page-content {
-  margin: 2rem 0 3rem;
-  text-align: center;
-}
-
-.cart-page-message {
-  margin-bottom: 1.5rem;
-}
-</style>

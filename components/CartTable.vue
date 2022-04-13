@@ -67,25 +67,3 @@ export default {
     </tbody>
   </table>
 </template>
-
-<style lang="scss" scoped>
-.cart-table {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.cart-table-cell {
-  padding: 8px 0;
-  border-bottom: 1px solid #ccc;
-}
-
-.cart-table-heading {
-  padding: 10px 0;
-  border-bottom: 1px solid #ccc;
-}
-
-.cart-table-row {
-  text-align: center;
-}
-</style>
